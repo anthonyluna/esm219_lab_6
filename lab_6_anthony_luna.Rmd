@@ -1,0 +1,77 @@
+---
+title: "Lab 6 - Nitrogen Fixation"
+author: "Anthony Luna"
+date: "11/18/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+```{r}
+library(tidyverse)
+library(janitor)
+library(kableExtra)
+library(scales)
+library(here)
+library(ggbeeswarm)
+library(car)
+library(purrr)
+```
+
+# Description
+# Methods
+# Results
+
+```{r}
+biomass <- data.frame(7.25,	2.41,	7.4,	0.2,	0.75,	0.054,	22,	11)
+names(biomass) <- c("Shoots (wet)",
+                    "Shoots (dry)",
+                    "Roots (wet)",
+                    "Roots (dry)",
+                    "Nodules (wet)",
+                    "Nodules (dry)",
+                    "nodules_vial",
+                    "nodules_excluded")
+janitor::clean_names(biomass)
+```
+
+```{r}
+n_data <- read_csv("n_data.csv") %>% 
+  head(24) %>% 
+  clean_names()
+
+best_fit <- unique(n_data$sample_id) %>% 
+  map(function(x){
+    coef(lm(total_umol_c2h4_produced~time_elapsed, data = filter(n_data, sample_id == x)))
+    })
+
+eth_plot <- ggplot() +
+  geom_point(data = n_data, aes(x=time_elapsed, y=total_umol_c2h4_produced, group = sample_id, color = plant_name))+
+  geom_abline(color="red",intercept = best_fit[[1]][1], slope = best_fit[[1]][2])+
+  geom_abline(color="red",intercept = best_fit[[2]][1], slope = best_fit[[2]][2])+
+  geom_abline(color="red",intercept = best_fit[[3]][1], slope = best_fit[[3]][2])+
+  geom_abline(color="blue",intercept = best_fit[[4]][1], slope = best_fit[[4]][2])+
+  geom_abline(color="blue",intercept = best_fit[[5]][1], slope = best_fit[[5]][2])+
+  geom_abline(color="blue",intercept = best_fit[[6]][1], slope = best_fit[[6]][2])
+
+
+
+eth_plot
+```
+
+
+# Discussion
+
+1.	Using the spreadsheet provided for class, calculate the rate of C2H4 (ethylene) production.  You will do this by using the calibration curve for C2H4 (the TA will measure a C2H4 standard curve before the lab) to convert your peak area to a C2H4 concentration (v/v%). Find the volume of ethylene in the removed sample and in the remaining sample (e.g. if 400 uL removed, multiply 400 uL x v/v% concentration).  Convert to moles, using the ideal gas law (1 mol gas = 22.4 L). For each time point, find the TOTAL number of moles produced by adding the removed (from all previous + current samplings) to the remaining.  Plot total moles ethylene produced over time in mol/min or umol/min. Divide the slope by the dry mass of nodules to normalize to grams. Your final calculation will be a rate of ethylene production normalized to the dry mass of the nodules. The units will be in (moles/min*g).
+
+2. Theoretically, 2e- are required to reduce C2H2 to C2H4, whereas 6e- are required to reduce N2 to 2NH4 (i.e. 3 moles C2H4 produced per mole of N2 reduced).  Assume that this is correct (although the actual ratio has been reported to vary from between 1.5 to 8.4, e.g. see Appendix below) and express the total N2 fixation for your intact nodule system on a 1) nodule fresh weight basis, 2) nodule dry weight basis, 3) root dry weight basis and 4) plant basis.
+
+3. How does the total N2 fixation differ on a wet versus dry nodule weight basis?  On a plant basis? On a root dry weight basis? What is the N2 fixation per nodule?
+
+4.  How would removing the shoot system be expected to affect N2 fixation?  Why might the ratio of C2H4 produced / N2 reduced be different than the theoretical?
+
+5.  Why may plants with dinitrogen fixing associations be used as a green manure in agriculture (for example fava beans and clover)?
+
+
+# Reference
