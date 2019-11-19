@@ -1,0 +1,51 @@
+Group/Student,Sample ID,Plant name,Component,Retention Time (min),Time,Time Elapsed,Area,% Ethylene (C2H4) ,Fraction ethylene (vol/vol) ,Volume C2H4 removed (mL),Volume C2H4 remaining (mL),Headspace volume (mL),Mol C2H4 removed                 ,Mol C2H4 remaining          ,Total mol C2H4 produced,Total umol C2H4 produced
+Liviu + Natalie,Green Beans 1,green beans,Ethylene,1.61,3:00:00 PM,0,1294.8848,9.95E-04,9.95E-06,3.98E-06,1.15E-04,12,1.78E-10,5.15E-09,5.33E-09,0.005327867
+Liviu + Natalie,Green Beans 1,green beans,Ethylene,1.57,3:20:00 PM,20,3251.04,2.50E-03,2.50E-05,9.99E-06,2.90E-04,12,4.46E-10,1.29E-08,1.36E-08,0.013554159
+Liviu + Natalie,Green Beans 1,green beans,Ethylene,1.586,3:58:00 PM,58,5796.323,4.45E-03,4.45E-05,1.78E-05,5.16E-04,12,7.95E-10,2.31E-08,2.45E-08,0.024472736
+Liviu + Natalie,Green Beans 1,green beans,Ethylene,1.583,4:28:00 PM,88,10290.486,7.90E-03,7.90E-05,3.16E-05,9.17E-04,12,1.41E-09,4.09E-08,4.38E-08,0.043759166
+Sarah,Green Beans 2,green beans,Ethylene,1.586,3:13:00 PM,0,551.9132,4.24E-04,4.24E-06,1.70E-06,4.92E-05,12,7.57E-11,2.20E-09,2.27E-09,0.002270874
+Sarah,Green Beans 2,green beans,Ethylene,1.6,3:35:00 PM,22,1698.7684,1.30E-03,1.30E-05,5.22E-06,1.51E-04,12,2.33E-10,6.76E-09,7.07E-09,0.007065362
+Sarah,Green Beans 2,green beans,Ethylene,1.59,4:10:00 PM,57,3284.0284,2.52E-03,2.52E-05,1.01E-05,2.93E-04,12,4.50E-10,1.31E-08,1.38E-08,0.013820981
+Sarah,Green Beans 2,green beans,Ethylene,1.603,4:42:00 PM,89,4771.1892,3.66E-03,3.66E-05,1.47E-05,4.25E-04,12,6.54E-10,1.90E-08,2.04E-08,0.020390386
+Anthony,Medicago polymorpha 1,Mpolymorpha,Ethylene,1.596,3:22:00 PM,0,2269.0118,1.74E-03,1.74E-05,6.97E-06,2.02E-04,12,3.11E-10,9.02E-09,9.34E-09,0.00933596
+Anthony,Medicago polymorpha 1,Mpolymorpha,Ethylene,1.58,3:48:00 PM,26,5806.4668,4.46E-03,4.46E-05,1.78E-05,5.17E-04,12,7.96E-10,2.31E-08,2.42E-08,0.024202191
+Anthony,Medicago polymorpha 1,Mpolymorpha,Ethylene,1.586,4:30:00 PM,68,10671.8216,8.20E-03,8.20E-05,3.28E-05,9.51E-04,12,1.46E-09,4.24E-08,4.50E-08,0.045017298
+Anthony,Medicago polymorpha 1,Mpolymorpha,Ethylene,1.596,5:14:00 PM,112,12076.7072,9.28E-03,9.28E-05,3.71E-05,1.08E-03,12,1.66E-09,4.80E-08,5.23E-08,0.052261427
+Benson,Medicago polymorpha 2,Mpolymorpha,Ethylene,1.6,3:23:00 PM,0,67.8246,5.21E-05,5.21E-07,2.08E-07,6.04E-06,12,9.30E-12,2.70E-10,2.79E-10,0.000279068
+Benson,Medicago polymorpha 2,Mpolymorpha,Ethylene,1.606,3:53:00 PM,30,145.7304,1.12E-04,1.12E-06,4.48E-07,1.30E-05,12,2.00E-11,5.80E-10,6.09E-10,0.000608917
+Benson,Medicago polymorpha 2,Mpolymorpha,Ethylene,1.61,4:22:00 PM,59,356.7412,2.74E-04,2.74E-06,1.10E-06,3.18E-05,12,4.89E-11,1.42E-09,1.50E-09,0.001497119
+Benson,Medicago polymorpha 2,Mpolymorpha,Ethylene,1.62,4:56:00 PM,93,518.2756,3.98E-04,3.98E-06,1.59E-06,4.62E-05,12,7.11E-11,2.06E-09,2.21E-09,0.002210687
+Allison,Green Beans 3,green beans,Ethylene,1.59,3:35:00 PM,0,3809.3628,2.93E-03,2.93E-05,1.17E-05,3.39E-04,12,5.22E-10,1.52E-08,1.57E-08,0.01567381
+Allison,Green Beans 3,green beans,Ethylene,1.586,4:01:00 PM,26,8017.0368,6.16E-03,6.16E-05,2.46E-05,7.14E-04,12,1.10E-09,3.19E-08,3.35E-08,0.033508951
+Allison,Green Beans 3,green beans,Ethylene,1.58,4:36:00 PM,61,13152.6112,1.01E-02,1.01E-04,4.04E-05,1.17E-03,12,1.80E-09,5.23E-08,5.57E-08,0.055739074
+Allison,Green Beans 3,green beans,Ethylene,1.596,5:06:00 PM,91,13940.6063,1.07E-02,1.07E-04,4.28E-05,1.24E-03,12,1.91E-09,5.54E-08,6.08E-08,0.060785221
+Joslyn + Kristan,Medicago polymorpha 3,Mpolymorpha,Ethylene,1.52,3:41:00 PM,0,3062.64,2.35E-03,2.35E-05,9.41E-06,2.73E-04,12,4.20E-10,1.22E-08,1.26E-08,0.012601382
+Joslyn + Kristan,Medicago polymorpha 3,Mpolymorpha,Ethylene,1.586,4:17:00 PM,36,6777.4516,5.21E-03,5.21E-05,2.08E-05,6.04E-04,12,9.30E-10,2.70E-08,2.83E-08,0.028306203
+Joslyn + Kristan,Medicago polymorpha 3,Mpolymorpha,Ethylene,1.59,4:49:00 PM,68,9762.7056,7.50E-03,7.50E-05,3.00E-05,8.70E-04,12,1.34E-09,3.88E-08,4.15E-08,0.041518716
+Joslyn + Kristan,Medicago polymorpha 3,Mpolymorpha,Ethylene,1.596,5:22:00 PM,101,11051.8134,8.49E-03,8.49E-05,3.40E-05,9.85E-04,12,1.52E-09,4.40E-08,4.82E-08,0.048161784
+Liviu + Natalie,Green Beans 1,green beans,Acetylene,2.59,15:00,0,109991.2084,,,,,,,,,
+Liviu + Natalie,Green Beans 1,green beans,Acetylene,2.566,3:20:00 PM,20,110180.9087,,,,,,,,,
+Liviu + Natalie,Green Beans 1,green beans,Acetylene,2.626,3:58:00 PM,58,80191.4811,,,,,,,,,
+Liviu + Natalie,Green Beans 1,green beans,Acetylene,2.623,4:28:00 PM,88,85755.908,,,,,,,,,
+Sarah,Green Beans 2,green beans,Acetylene,2.6,3:13:00 PM,0,89324.9964,,,,,,,,,
+Sarah,Green Beans 2,green beans,Acetylene,2.63,3:35:00 PM,22,81358.33,,,,,,,,,
+Sarah,Green Beans 2,green beans,Acetylene,2.62,4:10:00 PM,57,86717.799,,,,,,,,,
+Sarah,Green Beans 2,green beans,Acetylene,2.646,4:42:00 PM,89,81262.5278,,,,,,,,,
+Anthony,Medicago polymorpha 1,Mpolymorpha,Acetylene,2.623,3:22:00 PM,0,87520.305,,,,,,,,,
+Anthony,Medicago polymorpha 1,Mpolymorpha,Acetylene,2.616,3:48:00 PM,26,82112.9812,,,,,,,,,
+Anthony,Medicago polymorpha 1,Mpolymorpha,Acetylene,2.646,4:30:00 PM,68,74546.461,,,,,,,,,
+Anthony,Medicago polymorpha 1,Mpolymorpha,Acetylene,2.776,5:14:00 PM,112,95931.792,,,,,,,,,
+Benson,Medicago polymorpha 2,Mpolymorpha,Acetylene,2.623,3:23:00 PM,0,81162.0306,,,,,,,,,
+Benson,Medicago polymorpha 2,Mpolymorpha,Acetylene,2.723,3:53:00 PM,30,117014.0286,,,,,,,,,
+Benson,Medicago polymorpha 2,Mpolymorpha,Acetylene,2.626,4:22:00 PM,59,85266.4286,,,,,,,,,
+Benson,Medicago polymorpha 2,Mpolymorpha,Acetylene,2.65,4:56:00 PM,93,81657.0175,,,,,,,,,
+Allison,Green Beans 3,green beans,Acetylene,2.61,3:35:00 PM,0,90779.9944,,,,,,,,,
+Allison,Green Beans 3,green beans,Acetylene,2.616,4:01:00 PM,26,88932.9479,,,,,,,,,
+Allison,Green Beans 3,green beans,Acetylene,2.633,4:36:00 PM,61,77957.9179,,,,,,,,,
+Allison,Green Beans 3,green beans,Acetylene,2.833,5:06:00 PM,91,71867.456,,,,,,,,,
+Joslyn + Kristan,Medicago polymorpha 3,Mpolymorpha,Acetylene,2.543,3:41:00 PM,0,88774.9146,,,,,,,,,
+Joslyn + Kristan,Medicago polymorpha 3,Mpolymorpha,Acetylene,2.623,4:17:00 PM,36,81333.3036,,,,,,,,,
+Joslyn + Kristan,Medicago polymorpha 3,Mpolymorpha,Acetylene,2.64,4:49:00 PM,68,79327.4492,,,,,,,,,
+Joslyn + Kristan,Medicago polymorpha 3,Mpolymorpha,Acetylene,2.676,5:22:00 PM,101,67804.5066,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
